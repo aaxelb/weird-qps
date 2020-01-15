@@ -36,6 +36,10 @@ export default Controller.extend({
           quux: []
         }
       });
+    },
+
+    goToChild() {
+      this.router.transitionTo("child");
     }
   }
 });
